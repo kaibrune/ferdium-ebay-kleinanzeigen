@@ -1,0 +1,16 @@
+{
+  "id": "ebay-kleinanzeigen",
+  "name": "eBay Kleinanzeigen",
+  "version": "1.0.0",
+  "description": "Adds the messenger of eBay Kleinanzeigen to Ferdi",
+  "main": "index.js",
+  "author": "Kai Brune (@kaibrune)",
+  "license": "MIT",
+  "repository": "",
+  "config": {
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "serviceURL": "https://www.ebay-kleinanzeigen.de/m-nachrichten.html",
+    "message": "In rare cases eBay Kleinanzeigen does not reload the messages and/or opens the first message when loading. As soon as there is a solution for this, it will be implemented."
+  }
+}

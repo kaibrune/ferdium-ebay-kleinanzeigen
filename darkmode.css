@@ -1,0 +1,109 @@
+.Conversation {
+    border-top: 1px solid #222222 !important;
+    background-color: #222222 !important;
+}
+.ReplyBox{
+    background-color: #393939 !important;
+    border-top: 1px solid #565656 !important;
+}
+.Messagebox {
+    color: #ffffff !important;
+}
+.MessageListItem-Date {
+    color: #bfbfbf !important;
+}
+.Message-inbound {
+    background-color: #393939 !important;
+    color: #ffffff !important;
+}
+.Message-outbound {
+    background-color: #00818a !important;
+}
+.Button-secondary{
+    color: #d6d6d6 !important;
+    background-color: #393939 !important;
+    border: 1px solid #505050 !important;
+}
+.Button-inverted {
+    color: #d6d6d6 !important;
+    background-color: #393939 !important;
+    border: 1px solid #505050 !important;
+}
+.ConversationHeader {
+    background-color: #393939 !important;
+    border-bottom: 1px solid #565656 !important;
+}
+.ConversationHeader--Body a{
+    color: #ffffff !important;
+}
+.Messagebox.jsx-1359264706 {
+    color: #ffffff !important;
+    background-color: #222222 !important;
+    border: 1px solid #565656 !important;
+}
+.BulkSelect {
+    color: #d6d6d6 !important;
+    background-color: #222222 !important;
+    border: 1px solid #505050 !important;
+}
+.ConversationListItem--Title {
+    color: #ffffff !important;
+}
+.ConversationListItem--Message {
+    color: #e6e6e6 !important;
+}
+.ConversationListItem {
+    color: #bfbfbf !important;
+    border-bottom: 1px solid #565656 !important;
+}
+.ConversationListItem.is-highlighted {
+    background-color: #393939 !important;
+    border-left: 2px solid #00818a !important;
+}
+.ConversationListItem:hover {
+    background-color: #393939 !important;
+}
+.ReplyBox textarea {
+  background-color: #222222 !important;
+  border: 1px solid #565656 !important;
+    color: #ffffff !important;
+}
+.Modal--Header h2 {
+    color: #ffffff !important;
+}
+.Modal--Body {
+    border-top: 1px solid #565656 !important;
+}
+.Modal--Body p{
+    color: #ffffff !important;
+}
+.ReplyAttachment {
+    border: 1px solid #565656 !important;
+}
+.ConversationList {
+    border-right: none !important;
+    border-top: 1px solid #565656 !important;
+}
+.Modal--Content {
+    background: #222222 !important;
+    border-radius: 15px !important;
+    border: none !important;
+}
+::-webkit-scrollbar-track
+{
+    background-color: #222222;
+}
+
+::-webkit-scrollbar
+{
+    width: 8px;
+    background-color: #222222;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #80808080;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
