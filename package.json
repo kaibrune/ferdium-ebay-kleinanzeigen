@@ -6,7 +6,7 @@
   "main": "index.js",
   "author": "Kai Brune (@kaibrune)",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/kaibrune/ebay-kleinanzeigen",
   "config": {
     "hasNotificationSound": false,
     "hasIndirectMessages": false,
