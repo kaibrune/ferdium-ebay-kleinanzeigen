@@ -36,6 +36,41 @@
 #my-messagebox-bundle #messageboxLogin-featurebox{
     display: none;
 }
+::-webkit-scrollbar-track
+{
+    background-color: #e8e8e8;
+}
+
+::-webkit-scrollbar
+{
+    width: 8px;
+    background-color: #e8e8e8;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #80808080;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.back-button{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    padding: 6px 13px;
+    outline: none;
+    white-space: nowrap;
+    border: none;
+    background-color: #0064D2;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #fff;
+    min-height: 34px;
+    line-height: 1.5em;
+    font-size: 14px;
+    margin: 0 10px 10px 0;
+}
 
 @media (prefers-color-scheme: dark) {
 #my-messagebox-bundle .Conversation {
@@ -150,39 +185,4 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
 }
-}
-::-webkit-scrollbar-track
-{
-    background-color: #e8e8e8;
-}
-
-::-webkit-scrollbar
-{
-    width: 8px;
-    background-color: #e8e8e8;
-}
-
-::-webkit-scrollbar-thumb
-{
-    background-color: #80808080;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-}
-.back-button{
-    display: inline-block;
-    vertical-align: middle;
-    font-weight: 400;
-    padding: 6px 13px;
-    outline: none;
-    white-space: nowrap;
-    border: none;
-    background-color: #0064D2;
-    border-radius: 6px;
-    box-sizing: border-box;
-    color: #fff;
-    min-height: 34px;
-    line-height: 1.5em;
-    font-size: 14px;
-    margin: 0 10px 10px 0;
 }
