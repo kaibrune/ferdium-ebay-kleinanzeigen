@@ -15,7 +15,7 @@ module.exports = (Ferdi) => {
 
   Ferdi.loop(getMessages);
 
-  document.addEventListener("DOMContentLoaded", function(){
+  window.addEventListener("load", function(){
     var breadcrump = document.getElementById("vap-brdcrmb");
     if(breadcrump!=null){
       breadcrump.innerHTML ='<a class="back-button" href="/m-nachrichten.html"><span class="Button--Body"><span>Return to messenger</span></span></a>' + breadcrump.innerHTML;
@@ -25,8 +25,7 @@ module.exports = (Ferdi) => {
     if(error_msg!=null){
     error_msg.innerHTML ='<a class="back-button" href="/m-nachrichten.html"><span class="Button--Body"><span>Return to messenger</span></span></a>' + error_msg.innerHTML;
     }
-});
-
-
+  });
+  
   Ferdi.injectCSS(path.join(__dirname, 'style.css'));
 }
