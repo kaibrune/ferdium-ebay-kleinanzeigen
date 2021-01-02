@@ -129,6 +129,9 @@
     border-radius: 15px !important;
     border: none !important;
 }
+#my-messagebox-bundle .AdImage.is-inactive::after {
+    background-color: rgba(21, 21, 21, 0.8) !important;
+}
 ::-webkit-scrollbar-track
 {
     background-color: #222222;
@@ -147,6 +150,24 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
 }
+}
+::-webkit-scrollbar-track
+{
+    background-color: #e8e8e8;
+}
+
+::-webkit-scrollbar
+{
+    width: 8px;
+    background-color: #e8e8e8;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #80808080;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
 .back-button{
     display: inline-block;
