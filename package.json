@@ -6,7 +6,7 @@
   "main": "index.js",
   "author": "Kai Brune (@kaibrune)",
   "license": "MIT",
-  "repository": "https://github.com/kaibrune/ebay-kleinanzeigen",
+  "repository": "https://github.com/kaibrune/ferdi-ebay-kleinanzeigen",
   "config": {
     "hasNotificationSound": false,
     "hasIndirectMessages": false,
